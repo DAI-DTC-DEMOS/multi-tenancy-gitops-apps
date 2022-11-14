@@ -11,6 +11,8 @@ metadata:
   annotations:
     openshift.io/host.generated: 'true'
 spec:
+  tls:
+    termination: edge
   to:
     kind: Service
     name: el-cnkt-event-listener
