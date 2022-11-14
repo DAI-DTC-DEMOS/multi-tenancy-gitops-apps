@@ -17,4 +17,6 @@ spec:
     kind: Service
     name: el-cnkt-event-listener
     weight: 100
+   port:
+    targetPort: 8080
   wildcardPolicy: None
