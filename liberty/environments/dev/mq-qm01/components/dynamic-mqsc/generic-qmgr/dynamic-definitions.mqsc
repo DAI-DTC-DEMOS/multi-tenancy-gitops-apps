@@ -1,0 +1,4 @@
+* Use this file for MQSC that you want to be able to update without restarting the queue manager.
+DEFINE QLOCAL(DEVTEST.DYNAMIC.QUEUE)
+DEFINE QLOCAL(DAI2.DYNAMIC.QUEUE)
+DEFINE QLOCAL(DAI3.DYNAMIC.QUEUE)
